@@ -39,7 +39,7 @@ When the function itself does not have a name. But instead of function name, one
         return val1 + val2;
     }
 
-    const ans = sumOfSomething(2, 4, function square(a){
+    const ans = sumOfSomething(2, 4, function(a){
         return a * a;
     });
     console.log(ans);
